@@ -1,12 +1,37 @@
-﻿<!DOCTYPE html>
+﻿@{
+    Layout = null;
+
+    var seriesTitle = "The Amazing Spider-Man";
+    var issueNumber = 700;
+    var description = "<p>Final alieudghiadefhgiuaefgiurefhiguher</p>";
+    var artist = new string[]
+    {
+        "Script: Dan Slott",
+        "Pencils: Humberto ramos",
+        "Inks: Victor Olazaba",
+        "Colors: Edgar Delgado",
+        "Letters: Chris Eliopoulos"
+
+    };
+}
+
+
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8" name="viewport" content="width=device-width"/>
     <title></title>
 </head>
 <body>
     <div>
-        <h1>Hello from our view!</h1>
+        <h1>@seriesTitle</h1>
+        <h2>Issue #@issueNumber</h2>
+
+        <h5>Description:</h5>
+        <div>@Html.Raw(description)</div>
+
+        <h5>Artists:</h5>
+        <div>@artist</div>
     </div>
 </body>
 </html>
