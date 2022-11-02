@@ -9,7 +9,7 @@ namespace ComicBookGallery.Controllers
         {
             ViewBag.SeriesTitle = "The Amazing Spider-Man!";
             ViewBag.issueNumber = 700;
-            ViewBag.description = "<p>Final alieudghiadefhgiuaefgiurefhiguher</p>";
+            ViewBag.description = "<p>Final что то где то там. типа какой то текст</p>";
             ViewBag.artists = new string[]
             {
                 "Script: Dan Slott",
