@@ -13,7 +13,7 @@ namespace ComicBookGallery.Controllers
             ViewBag.artists = new string[]
             {
                 "Script: Dan Slott",
-                "Pencils: Humberto ramos",
+                "Pencils: Humberto Ramos",
                 "Inks: Victor Olazaba",
                 "Colors: Edgar Delgado",
                 "Letters: Chris Eliopoulos"
