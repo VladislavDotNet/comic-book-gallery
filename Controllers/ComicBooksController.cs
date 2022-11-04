@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ComicBookGallery.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata.Ecma335;
 
 namespace ComicBookGallery.Controllers
@@ -7,22 +8,26 @@ namespace ComicBookGallery.Controllers
     {
          public ActionResult Detail ()
         {
-            ViewBag.SeriesTitle = "The Amazing Spider-Man!";
-            ViewBag.issueNumber = 700;
-            ViewBag.description = "<p>Final что то где то там. типа какой то текст</p>";
-            ViewBag.artists = new string[]
+            var comicBook = new ComicBook()
             {
-                "Script: Dan Slott",
-                "Pencils: Humberto Ramos",
-                "Inks: Victor Olazaba",
-                "Colors: Edgar Delgado",
-                "Letters: Chris Eliopoulos"
+                SeriesTitle = "The Amazing Spider-Man!",
+                IssueNumber = 700,
+                DescriptionHtml = "<p>Final что то где то там. типа какой то текст</p>",
+                Artists = new Artist[]
+                {
+                    new Artist() { Name = "Dan Slott", Role = "Script"},
+                    new Artist() { Name = "Humberto Ramos", Role = "Pencils"},
+                    new Artist() { Name = "Victor Olazaba", Role = "Inks"},
+                    new Artist() { Name = "Edgar Delgado", Role = "Colors"},
+                    new Artist() { Name = "Chris Eliopoulos", Role = "Letters"},
 
+
+
+                }
             };
 
-
-
-            return View();
+            
+            return View(comicBook);
         }
     }
 }   

@@ -7,7 +7,66 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\ComicBookGallery.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\ComicBookGallery.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net6.0\ComicBookGallery.RazorAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net6.0\appsettings.json" />
+    <Content Include="bin\Debug\net6.0\ComicBookGallery.deps.json" />
+    <Content Include="bin\Debug\net6.0\ComicBookGallery.runtimeconfig.json" />
+    <Content Include="bin\Debug\net6.0\ComicBookGallery.staticwebassets.runtime.json" />
+    <Content Include="obj\ComicBookGallery.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net6.0\ComicBookGallery.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net6.0\project.razor.vs.json" />
+    <Content Include="obj\Debug\net6.0\scopedcss\bundle\ComicBookGallery.styles.css" />
+    <Content Include="obj\Debug\net6.0\scopedcss\projectbundle\ComicBookGallery.bundle.scp.css" />
+    <Content Include="obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css" />
+    <Content Include="obj\Debug\net6.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net6.0\staticwebassets.development.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\ComicBookGallery.dll" />
+    <None Include="bin\Debug\net6.0\ComicBookGallery.exe" />
+    <None Include="bin\Debug\net6.0\ComicBookGallery.pdb" />
+    <None Include="bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll" />
+    <None Include="bin\Debug\net6.0\Views\web.config" />
+    <None Include="obj\ComicBookGallery.csproj.nuget.g.props" />
+    <None Include="obj\ComicBookGallery.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net6.0\apphost.exe" />
+    <None Include="obj\Debug\net6.0\ComicBookGallery.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\ComicBookGallery.assets.cache" />
+    <None Include="obj\Debug\net6.0\ComicBookGallery.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\ComicBookGallery.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net6.0\ComicBookGallery.csproj.CopyComplete" />
+    <None Include="obj\Debug\net6.0\ComicBookGallery.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\ComicBookGallery.dll" />
+    <None Include="obj\Debug\net6.0\ComicBookGallery.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\ComicBookGallery.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0\ComicBookGallery.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\ComicBookGallery.pdb" />
+    <None Include="obj\Debug\net6.0\ComicBookGallery.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\refint\ComicBookGallery.dll" />
+    <None Include="obj\Debug\net6.0\ref\ComicBookGallery.dll" />
+    <None Include="obj\Debug\net6.0\_IsIncrementalBuild" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\staticwebassets.pack.sentinel" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\Debug\net6.0\staticwebassets\" />
   </ItemGroup>
 
 </Project>
