@@ -10,7 +10,7 @@
         public bool Favorite { get; set; }
 
 
-        public string Displaytext
+        public string DisplayText
         {
             get
             {
@@ -18,7 +18,7 @@
             }
         }
         // series-title-issuenumber.jpg
-        public string CoverImageFilename
+        public string CoverImageFileName
         {
             get
             {
